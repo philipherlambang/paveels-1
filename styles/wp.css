@@ -1,0 +1,200 @@
+/* Our Stylesheet */
+
+
+.scrollable{
+    overflow-x: scroll;
+    width: auto;
+    height: 90px;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.scrollable a{
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #f5f5f5;
+}
+
+.ui-body-a{
+    margin-top: -1px;
+}
+
+.ui-corner-all{
+    margin-bottom: 10px;
+}
+
+.horizontal-list{
+    background: none !important;
+}
+
+.horizontal-list .ui-bar{
+    padding: 2px;
+    background: none;
+    border: none;
+}
+
+.horizontal-list .ui-bar a{
+    padding: 2px;
+    border: none;
+    background: white !important;
+    margin: 2px;
+}
+
+.horizontal-list .ui-bar a:hover{
+    background: white;
+}
+
+.horizontal-list p{
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.ui-li-static.ui-collapsible > .ui-collapsible-heading {
+    margin: 0;
+}
+.ui-li-static.ui-collapsible {
+    padding: 0;
+}
+.ui-li-static.ui-collapsible > .ui-collapsible-heading > .ui-btn {
+    border-top-width: 0;
+}
+.ui-li-static.ui-collapsible > .ui-collapsible-heading.ui-collapsible-heading-collapsed > .ui-btn,
+.ui-li-static.ui-collapsible > .ui-collapsible-content {
+    border-bottom-width: 0;
+}
+
+.img-rounded{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+    margin: 10px auto;
+/*
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+*/
+}
+
+.less-padding{
+    padding: 0.1em 0 !important;
+}
+
+.less-margin{
+    margin: 5px 0 !important;
+}
+
+.no-margin{
+    margin: 0 !important;
+}
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a, .ui-page-theme-b a, html .ui-bar-b a, html .ui-body-b a, html body .ui-group-theme-b a{
+    font-weight: 300;
+}
+
+.ui-page-theme-b a, html .ui-bar-b a, html .ui-body-b a, html body .ui-group-theme-b a{
+    font-size: 80%;
+}
+
+.footer li a{
+    font-size: 11px !important;
+}
+
+.common-links1{
+    font: bold 11px arial !important;
+    text-decoration: none;
+    text-shadow: none;
+    color: #e7433b !important;
+}
+
+.text-thin{
+    font-weight: 300 !important;
+}
+
+.custom-button{
+    color: #3eb249 !important;
+    font-weight: 300 !important;
+}
+
+.custom-button-small{
+    color: #3eb249 !important;
+    font-weight: 300 !important;
+    font-size: 80% !important;
+}
+
+.text-90{
+    font-size: 90%;
+}
+
+.text-80{
+    font-size: 80% !important;
+}
+
+.text-70{
+    font-size: 70% !important;
+}
+
+.button-container .ui-block-a, .ui-block-b, .ui-block-c, .ui-block-d, .ui-block-e{
+/*    padding: 1px !important;*/
+}
+
+.ui-table th{
+/*    font-weight: 300;*/
+    font-size: 12px;
+}
+
+.v-middle{
+    vertical-align: middle !important;
+}
+
+.ui-page-theme-a .ui-btn:focus, html .ui-bar-a .ui-btn:focus, html .ui-body-a .ui-btn:focus, html body .ui-group-theme-a .ui-btn:focus, html head + body .ui-btn.ui-btn-a:focus, .ui-page-theme-a .ui-focus, html .ui-bar-a .ui-focus, html .ui-body-a .ui-focus, html body .ui-group-theme-a .ui-focus, html head + body .ui-btn-a.ui-focus, html head + body .ui-body-a.ui-focus{
+    box-shadow: none !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.badge-custom{
+    background: none repeat scroll 0 0 #3eb249;
+    border: medium none;
+    color: white;
+    float: left;
+    font: 11px/20px arial;
+    padding: 0 10px;
+    position: static;
+    right: 0;
+    text-shadow: none;
+    top: 0;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.ui-shadow-inset{
+    box-shadow: none !important;
+}
+
+.searchContainer-custom .ui-btn-icon-right::after{
+    display: none;
+}
+
+.searchContainer-custom .jqm-search-results-highlight{
+    color: #3388cc;
+    font-weight: 400;
+}
+
+.searchContainer-custom .jqm-search-results-keywords{
+    color: #999;
+    display: block;
+    font-size: 0.8em;
+    font-weight: 300;
+    overflow: hidden;
+    padding: 0.46857em 0 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

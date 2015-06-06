@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Paveels</title>
+	<link rel="favicon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/jquery.mobile.min.css">
+	<link rel="stylesheet" href="styles/paveels.css">
+    <link rel="stylesheet" href="styles/wp.css">
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/jquery.mobile.min.js"></script>
+	<script src="scripts/wp.js"></script>
+	<link rel="shortcut icon" href="images/favicon.ico">    
+</head>
+<body>
+	<div data-role="page" id="page_index" class="def">
+        
+        <div data-role="header" data-position="fixed">
+			<form class="ui-filterable">
+				<input data-type="search">
+			</form>
+			<a href="index.html" data-role="none">
+				<img src="images/logo_header.png" width="80">
+			</a>
+			<a href="myAccount.html" data-role="none">
+				<img src="images/vitri_zulianti-1.jpg">
+			</a>
+			<div data-role="navbar">
+                <ul>
+					<li><a href="myAccount.html" class="ui-btn-active active">Comm</a></li>
+					<li><a href="wishlist.html">Wish List</a></li>
+					<li><a href="address.html">Address</a></li>
+				</ul>
+            </div>			
+			
+		</div> <!-- header -->
+        
+		<div data-role="content">
+            
+            <div class="ui-grid-b">
+                <h2 class="text-thin less-margin">Vitri Zulianti</h2>
+                <img src="images/vitri_zulianti-1.jpg" class="" width="80">
+                
+                <p class="less-margin text-80">Email: <span class="text-thin">zulianti.vitri@gmail.com</span></p>
+                
+                
+                <p class="no-margin text-80">Shipping Address</p>
+                <p class="text-thin text-80">
+                    795 Folsom Ave, Suite 600<br/>
+                    San Francisco, CA 94107<br/>
+                    P: (021) 456-7890 <br/>
+                </p>
+                
+                <div data-role="tabs" id="tabs">
+                  <div data-role="navbar">
+                    <ul>
+                      <li><a href="#orders" data-ajax="false" class="ui-state-active">Order History</a></li>
+                      <li><a href="#payment" data-ajax="false">Payment</a></li>
+                      <li><a href="#wishlist" data-ajax="false">Wishlist</a></li>
+                    </ul>
+                  </div>
+                  <div id="orders" class="ui-body-d ui-content less-padding">
+                      <table data-role="table" id="table-custom-2" data-mode="" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-popup-theme="a">
+                         <thead>
+                           <tr class="ui-bar-d">
+                             <th data-priority="" width="25%">Date</th>
+                             <th width="25%">Order</th>
+                             <th data-priority="" width="25%">Total</th>
+                             <th data-priority="" width="25%">Confirm</th>
+                           </tr>
+                         </thead>
+                         <tbody>
+                           <tr>
+                             <th class="text-thin v-middle">01-01-2015</th>
+                             <td>
+                                <img src="images/bottleOwl.jpg" width="50" class="v-middle">  
+                             </td>
+                             <td class="text-thin text-90 v-middle">99.000</td>
+                             <td><button class="ui-btn custom-button-small">Confirm</button></td>
+                           </tr>
+                             
+                           <tr>
+                             <th class="text-thin v-middle">01-01-2015</th>
+                             <td>
+                                <img src="images/combi_4.jpg" width="50" class="v-middle">  
+                             </td>
+                             <td class="text-thin text-90 v-middle">1.299.000</td>
+                             <td><button class="ui-btn custom-button-small" disabled>Confirmed</button></td>
+                           </tr>
+                             
+                           <tr>
+                             <th class="text-thin v-middle">01-01-2015</th>
+                             <td>
+                                <img src="images/bottleOwl.jpg" width="50" class="v-middle">  
+                             </td>
+                             <td class="text-thin text-90 v-middle">99.000</td>
+                             <td><button class="ui-btn custom-button-small">Confirm</button></td>
+                           </tr>
+                          
+                         </tbody>
+                       </table>
+                  </div>
+                  <div id="payment">
+                    <h4 class="text-thin">Confirm your payment</h4>
+                      <p class="text-thin text-90">
+                        Bank Tujuan: Bank BCA No Rek 2173130244 Atas Nama: Lala
+                      </p>
+                      
+                      
+                    <form>
+                        <label class="text-thin text-80">Order Number</label>
+                        <input data-clear-btn="true" name="text-3" id="text-3" value="" type="text">
+                        
+                        <label class="text-thin text-80">Tanggal Pembayaran</label>
+                        <input data-clear-btn="true" name="text-3" id="text-3" value="" type="text">
+                        
+                        <label class="text-thin text-80">Jumlah Pembayaran</label>
+                        <input data-clear-btn="true" name="text-3" id="text-3" value="" type="text">
+                        
+                        <label class="text-thin text-80">Bank Asal</label>
+                        <input data-clear-btn="true" name="text-3" id="text-3" value="" type="text">
+                        
+                        <label class="text-thin text-80">Nama Pemilik Rekening</label>
+                        <input data-clear-btn="true" name="text-3" id="text-3" value="" type="text">
+                        
+                        <button class="ui-btn custom-button">Submit</button>
+                      </form>  
+                  </div>
+                  <div id="wishlist">
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a horizontal-list">
+                            <div class="ui-bar ui-bar-a">
+                                <a href="productDetail.html"><img width="100%" src="images/eating1.jpg"></a>
+                                <p>Zoo Insulated Food Jar - Owl</p>
+                            </div>
+                        </div>
+                        
+                        <div class="ui-block-b horizontal-list">
+                            <div class="ui-bar ui-bar-a">
+                                <a href="productDetail.html"><img width="100%" src="images/outing1-1.jpg"></a>
+                                <p>Zoo-Let Mini Backpack with Rein Monkey</p>
+                            </div>
+                        </div>
+                        
+                        <div class="ui-block-c horizontal-list">
+                            <div class="ui-bar ui-bar-a">
+                                <a href="productDetail.html"><img width="100%" src="images/product1.jpg"></a>
+                                <p>Moby Waterfall Bath Rinser</p>
+                            </div>
+                        </div>
+                        
+                        <div class="ui-block-a horizontal-list">
+                            <div class="ui-bar ui-bar-a">
+                                <a href="productDetail.html"><img width="100%" src="images/bowlDog.jpg"></a>
+                                <p>Sippy Cup Set with Training Lid Green</p>
+                            </div>
+                        </div>
+                        
+                        <div class="ui-block-b horizontal-list">
+                            <div class="ui-bar ui-bar-a">
+                                <a href="productDetail.html"><img width="100%" src="images/bottleOwl.jpg"></a>
+                                <p>Zoo Straw Bottle Owl</p>
+                            </div>
+                        </div>
+                        
+                        <div class="ui-block-c horizontal-list">
+                            <div class="ui-bar ui-bar-a">
+                                <a href="productDetail.html"><img width="100%" src="images/bathing2.jpg"></a>
+                                <p>Moby Bath Mat</p>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                  </div>
+                </div>
+                
+        
+            <div id="socialMedia" align="center">
+                <a href="http://www.facebook.com/paveels" target="_blank"><img width="30" src="images/fb.png"></a>
+                <a href="https://instagram.com/paveels/" target="_blank"><img width="30" src="images/ig.png"></a>
+                <a href="https://instagram.com/paveels/" target="_blank"><img width="30" src="images/youtube.png"></a>
+            </div><!-- socialMedia -->
+            
+		</div><!-- content -->
+		
+		<div data-role="footer" data-position="fixed" class="footer">
+			<div data-role="navbar">
+                <ul>
+					<li><a href="category.html">Category</a></li>
+					<li><a href="brands.html">Brands</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="cart.html">Cart</a></li>
+				</ul>
+            </div>
+		</div><!-- footer -->
+	</div><!-- page -->
+</body>
+</html>

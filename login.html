@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>paveels</title>
+	<link rel="favicon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/jquery.mobile.min.css">
+	<link rel="stylesheet" href="styles/wp.css">
+	<link rel="stylesheet" href="styles/paveels.css">
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/jquery.mobile.min.js"></script>
+	<script src="scripts/wp.js"></script>
+	<link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+	<div data-role="page" id="page_index" class="def">
+        <div data-role="header" data-position="fixed">
+			<form class="ui-filterable">
+				<input data-type="search">
+			</form>
+			<a href="index.html" data-role="none">
+				<img src="images/logo_header.png" width="80">
+			</a>
+			<a href="myAccount.html" data-role="none">
+				<img src="../src/images/user.png">
+			</a>
+		</div>
+        
+        <div data-role="content">
+            
+            <br/>            
+<!--            <center><img src="images/logo_header.png" width="100"></center>-->
+            
+            <div data-role="tabs" id="tabs">
+              <div data-role="navbar">
+                <ul>
+                  <li><a href="#login" data-ajax="false">Login</a></li>
+                  <li><a href="#register" data-ajax="false">Register</a></li>
+                </ul>
+              </div>
+              <div id="login" class="ui-body-d ui-content">
+                  <form class="less-margin">
+                      <label for="text-basic" class="text-thin text-80">Email</label>
+                      <input name="text-basic" id="text-basic" value="" type="text">
+
+                      <label for="text-basic" class="text-thin text-80">Password</label>
+                      <input name="text-basic" id="text-basic" value="" type="password">
+                      <button class="ui-btn custom-button">Login</button>
+                  </form>
+              </div>
+              <div id="register" class="ui-body-d ui-content">
+                <form class="less-margin">
+                      <label for="text-basic" class="text-thin text-80">Email</label>
+                      <input name="text-basic" id="text-basic" value="" type="text">
+
+                      <label for="text-basic" class="text-thin text-80">Password</label>
+                      <input name="text-basic" id="text-basic" value="" type="password">
+                    
+                      <label for="text-basic" class="text-thin text-80">Confirm Password</label>
+                      <input name="text-basic" id="text-basic" value="" type="password">
+                      <button class="ui-btn custom-button">Login</button>
+                  </form>
+              </div>
+            </div>
+            <center>
+                <a href="http://www.facebook.com/paveels" target="_blank"><img width="30" src="images/fb.png"></a>
+                <a href="https://instagram.com/paveels/" target="_blank"><img width="30" src="images/ig.png"></a>
+                <a href="https://instagram.com/paveels/" target="_blank"><img width="30" src="images/youtube.png"></a>
+            </center>
+            
+        </div>
+        
+		<div data-role="footer" data-position="fixed" class="footer">
+			<div data-role="navbar">
+                <ul>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="termsConditions.html">Terms and Conditions</a></li>
+					<li><a href="exchangePolicy.html">Exchange Policy</a></li>
+					<li><a href="privacy.html">Privacy Policy</a></li>
+				</ul>
+            </div>
+            
+		</div>
+	</div>
+</body>
+</html>

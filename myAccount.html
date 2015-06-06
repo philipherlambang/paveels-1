@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Paveels</title>
+	<link rel="favicon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/jquery.mobile.min.css">
+	<link rel="stylesheet" href="styles/paveels.css">
+    <link rel="stylesheet" href="styles/wp.css">
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/jquery.mobile.min.js"></script>
+	<script src="scripts/wp.js"></script>
+	<link rel="shortcut icon" href="images/favicon.ico">    
+</head>
+<body>
+	<div data-role="page" id="page_index" class="def">
+        
+        <div data-role="header" data-position="fixed">
+			<form class="ui-filterable">
+				<input data-type="search">
+			</form>
+			<a href="index.html" data-role="none">
+				<img src="images/logo_header.png" width="80">
+			</a>
+			<a href="myAccount.html" data-role="none">
+				<img src="images/vitri_zulianti-1.jpg">
+			</a>
+			<div data-role="navbar">
+                <ul>
+					<li><a href="myAccount.html" class="ui-btn-active active">Current</a></li>
+					<li><a href="myAccount_order_history.html">History</a></li>
+				</ul>
+            </div>			
+			
+		</div> <!-- header -->
+        
+		<div data-role="content">
+			<h4>Transaction-ID: 1234567890</h4>
+			<h4>Status: OPEN</h4>
+                  <div id="orders" class="ui-body-d ui-content less-padding">
+                      <table data-role="table" id="table-custom-2" data-mode="" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-popup-theme="a">
+                         <thead>
+                           <tr class="ui-bar-d">
+                             <th width="10%">SKU</th>
+                             <th data-priority="" width="35%">Product Name</th>
+                             <th data-priority="" width="25%">Amount(Rp.)</th>
+                             <th data-priority="" width="5%">Qty</th>
+                             <th data-priority="" width="25%">Total(Rp.)</th>
+                           </tr>
+                         </thead>
+                         <tbody>
+                           <tr>
+                             <td class="text-thin text-90">
+                             	SKU-001
+                                <img src="images/bottleOwl.jpg" width="50" class="v-middle">
+                             </td>
+                             <td class="text-thin text-90">Nama Product Pertama yang agak panjang nih</td>
+                             <td class="text-thin text-90">1.234.000</td>
+                             <td class="text-thin text-90">10</td>
+                             <td class="text-thin text-90">12.340.000</td>
+                           </tr>
+                          <tr>
+                             <td class="text-thin text-90">
+                             	SKU-002
+                                <img src="images/combi_4.jpg" width="50" class="v-middle">
+                             </td>
+                             <td class="text-thin text-90">Nama Product Pertama yang agak panjang nih</td>
+                             <td class="text-thin text-90">1.234.000</td>
+                             <td class="text-thin text-90">10</td>
+                             <td class="text-thin text-90">12.340.000</td>
+                           </tr>
+                          <tr>
+                             <td class="text-thin text-90">&nbsp;
+                             </td>
+                             <td class="text-thin text-90">&nbsp;</td>
+                             <td class="text-thin text-90">&nbsp;</td>
+                             <td class="text-thin text-90">&nbsp;</td>
+                             <td class="text-thin text-90">12.340.000</td>
+                           </tr>
+                          
+                         </tbody>
+                       </table>
+                  </div>
+				<h5>Purchase Total: Rp. 12.340.000</h5>
+				<h5>Payment: Not yet paid</h5>
+                  <div id="payment">
+                    <h4 class="text-thin">Confirm your payment</h4>
+                      <p class="text-thin text-90">
+                        Bank Tujuan: Bank BCA No Rek 2173130244 Atas Nama: Lala
+                      </p>
+                      
+                      
+                    <form>
+                        <label class="text-thin text-80">Order Number</label>
+                        <input data-clear-btn="true" name="text-3" id="text-3" value="" type="text">
+                        
+                        <label class="text-thin text-80">Tanggal Pembayaran</label>
+                        <input data-clear-btn="true" name="text-3" id="text-3" value="" type="text">
+                        
+                        <label class="text-thin text-80">Jumlah Pembayaran</label>
+                        <input data-clear-btn="true" name="text-3" id="text-3" value="" type="text">
+                        
+                        <label class="text-thin text-80">Bank Asal</label>
+                        <input data-clear-btn="true" name="text-3" id="text-3" value="" type="text">
+                        
+                        <label class="text-thin text-80">Nama Pemilik Rekening</label>
+                        <input data-clear-btn="true" name="text-3" id="text-3" value="" type="text">
+                        
+                        <button class="ui-btn custom-button">Submit</button>
+                      </form>  
+                  </div>
+		
+		
+		
+		</div><!-- content -->
+		
+		<div data-role="footer" data-position="fixed" class="footer">
+			<div data-role="navbar">
+                <ul>
+					<li><a href="myAccount.html" class="ui-btn-active active">Order</a></li>
+					<li><a href="wishlist.html">Wishlist</a></li>
+					<li><a href="settings.html">Settings</a></li>
+					<li><a href="comm.html">Communication</a></li>
+				</ul>
+            </div>
+		</div><!-- footer -->
+	</div><!-- page -->
+</body>
+</html>
