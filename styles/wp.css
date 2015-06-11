@@ -1,5 +1,7 @@
 /* Our Stylesheet */
-
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit, .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+    text-shadow: none !important;
+}
 
 .scrollable{
     overflow-x: scroll;
@@ -125,17 +127,14 @@
     font-size: 80% !important;
 }
 
-.text-90{
-    font-size: 90%;
-}
-
-.text-80{
-    font-size: 80% !important;
-}
-
-.text-70{
-    font-size: 70% !important;
-}
+.text-90{font-size: 90%;}
+.text-80{font-size: 80% !important;}
+.text-70{font-size: 70% !important;}
+.text-black{color:#333}
+.text-center{text-align: center}
+.clearfix{clear: both}
+.text-right{text-align: right}
+.text-left{text-align: left}
 
 .button-container .ui-block-a, .ui-block-b, .ui-block-c, .ui-block-d, .ui-block-e{
 /*    padding: 1px !important;*/
@@ -154,10 +153,6 @@
     box-shadow: none !important;
 }
 
-.text-center{
-    text-align: center;
-}
-
 .badge-custom{
     background: none repeat scroll 0 0 #3eb249;
     border: medium none;
@@ -169,11 +164,10 @@
     right: 0;
     text-shadow: none;
     top: 0;
+    margin-right: 5px;
 }
 
-.clearfix{
-    clear: both;
-}
+
 
 .ui-shadow-inset{
     box-shadow: none !important;
@@ -198,3 +192,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.no-decoration{text-decoration: none;}
+

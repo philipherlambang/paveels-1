@@ -1,0 +1,17 @@
+/* typography */
+.text-thin{font-weight: 300}
+
+.page-header {
+    border-bottom: 1px solid #eee;
+    margin: 20px 0 20px;
+    padding-bottom: 9px;
+}
+
+.preview-code{
+    background: #333; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    color:#fff; 
+    text-shadow: none; 
+    font-size: 85%
+}
